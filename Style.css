@@ -1,0 +1,87 @@
+/* Estilos generales para el cuerpo */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Encabezado principal */
+header h1 {
+  text-align: center;
+  color: #222;
+}
+
+/* Navegación principal */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  justify-content: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #005999;
+}
+
+/* Secciones */
+section {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Formularios */
+input, select, button {
+  padding: 10px;
+  margin: 5px 0;
+  font-size: 1rem;
+  width: 100%;
+  max-width: 300px;
+  display: block;
+}
+
+button {
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005999;
+}
+
+#resultado {
+  font-weight: bold;
+  margin-top: 10px;
+  color: #2e7d32;
+}
+
+/* Código preformateado */
+pre {
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-left: 4px solid #0077cc;
+  overflow-x: auto;
+}
+\/* Ocultar secciones por defecto */
+main section {
+  display: none;
+}
+
+/* Mostrar solo la sección activa */
+main section.active {
+  display: block;
+}
