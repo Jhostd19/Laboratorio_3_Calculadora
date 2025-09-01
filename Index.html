@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Laboratorio_3_Calculadora</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Laboratorio #3 - Calculadora</h1>
+  </header>
+
+  <main>
+
+    <!-- Seccion de la parte 2 -->
+    <section id="parte2">
+      <h2>Parte 2: Calculadora</h2>
+      <p>Ingresa dos números y elige una operación para ver el resultado.</p>
+
+      <input type="number" id="num1" placeholder="Primer número" />
+      <input type="number" id="num2" placeholder="Segundo número" />
+
+      <select id="operacion">
+        <option value="suma">Sumar</option>
+        <option value="resta">Restar</option>
+        <option value="multiplicacion">Multiplicar</option>
+        <option value="division">Dividir</option>
+      </select>
+
+      <button onclick="ejecutarCalculadora()">Calcular</button>
+      <button onclick="iniciarCalculadora()">Modo Prompt/Alert</button>
+      <div id="resultado"></div>
+    </section>
+  </main>
+
+  <script src="Funciones.js"></script>
+</body>
+</html>
